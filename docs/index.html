@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Sito Audio Multilingua</title>
+  <style>
+    .lang-buttons {
+      margin: 20px;
+    }
+    .lang-buttons a {
+      padding: 10px 15px;
+      margin-right: 10px;
+      background-color: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .lang-buttons a:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 <body>
+  <div class="lang-buttons">
+    <a href="index.html">🇮🇹 Italiano</a>
+    <a href="english.html">🇬🇧 English</a>
+  </div>
+
   <h1>Benvenuto nel mio sito audio multilingua!</h1>
   <p>Presto aggiungerò qui gli audio.</p>
-
-  <hr>
-
-  <h2>Scegli la lingua:</h2>
-  <button onclick="window.location.href='italiano.html'">Italiano</button>
-  <button onclick="window.location.href='english.html'">English</button>
 </body>
 </html>
+
